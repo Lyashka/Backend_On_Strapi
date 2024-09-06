@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_products",
+  "info": {
+    "singularName": "user-product",
+    "pluralName": "user-products",
+    "displayName": "userProduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "calories": {
+      "type": "string"
+    },
+    "proteins": {
+      "type": "string"
+    },
+    "fats": {
+      "type": "string"
+    },
+    "carbs": {
+      "type": "string"
+    }
+  }
+}
